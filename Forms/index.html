@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Html Forms</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 style="text-align: center;text-transform: uppercase;"><u>Html Form</h1></u>
+    <form action="#" method="post">
+        <div class="field">
+        <div class="title">
+            <label for="email">Email Address</label>
+        </div>
+        <input class="form-control" type="email" name="email"placeholder="Type your email" value="dhanvanti@gmail.com"> 
+         <!-- name use for backend purpose for saving -->
+    </div><div class="field">
+        <div class="title">
+        <label for="fname">Full Name*</label>  </div>
+        <input class="form-control" type="text" name="fname" placeholder="First name" required/> 
+        <!--readonly-->  
+        <input class="form-control" type="text" name="lname" placeholder="Last name">
+    </div><div class="field">
+        <div class="title">
+      <label for="address">Address</label></div>
+      <input class="form-control" type="text" name="address" placeholder="Street Address" ><br>
+      <input class="form-control" type="text" name="officeaddress" placeholder="office,suit,Apt">
+    </div><div class="field">
+        <div class="title">
+        <label for="city">City</label> <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <label for="state">State</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="zip">Zip</label><br> --></div>
+        <input class="form-control" type="text" name="city"/>
+        <select name="state" id="state">
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Karnataka">Karnataka</option>
+        </select>
+        <input class="form-control" type="number" placeholder="zip" min="10" max="20">
+    </div>
+    <div class="field">
+        <div class="title">
+        <label for="checkbox">What radio technologies are you using?</label></div>
+        <input type="checkbox" name="net-1" value="2G">2G
+        <input type="checkbox" name="net-2" value="3G">3G
+        <input type="checkbox" name="net-3" value="4G">4G
+    </div>
+    <div class="field">
+        <div class="title">
+        <label for="data-use">How much data do you use monthly?</label></div>
+        <input type="radio" name="net-2">0-50MB
+        <input type="radio" name="net">50-150MB
+        <input type="radio" name="net">150-250MB
+        <input type="radio" name="net">250-550MB
+    </div>
+    <div class="field">
+        <div class="title">
+     <label for="Subscription">Subscription Duration</label></div>
+     <input class="form-control" type="date" name="date"><br>
+     <input class="form-control" type="datetime-local"><br>
+     <input class="form-control" type="month"><br>
+     <input class="form-control" type="week"><br>
+     <input class="form-control" type="password"><br> <!-- will come in dot -->
+     <input class="form-control" type="time"><br>
+     <input class="form-control" type="color"><br>
+     <input class="form-control" type="file"><br>
+     <input class="form-control" type="image"><br>
+     <input class="form-control" type="date" name="date" min="2023-01-15"><input class="form-control" type="month" name="month">
+     <div class="title">
+     <label for="to">To</label></div>
+     <input class="form-control" type="date" name="date"><input class="form-control" type="month" name="month"><br>
+     <input class="form-control" type="range"><br>
+     <div class="title">
+     <label for="phone">Phone Number</label></div>
+     <input class="form-control" type="text" name="phone" pattern="^[6-9]\d{9}$" minlength="10" maxlength="10"><br><br>
+     <!-- <button type="reset">Reset</button>
+     <button type="submit">Submit</button> -->
+     <input class="form-control" type="reset" value="Reset">
+     <input class="form-control" type="submit" value="Submit">
+     <!-- <button type="submit" disabled>Submit</button> -->
+    </div>
+    </form>
+</body>
+</html>
