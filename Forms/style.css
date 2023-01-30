@@ -1,0 +1,173 @@
+/* body{
+    background-color: black;
+}
+.container{
+  margin-top: 30px;
+  margin-left: 70px;
+  align-items: center;
+  border-radius: 20px;
+  height: 600px;
+  position: fixed;
+  width: 200px;
+  background-color: #393534; 
+}
+.img{
+  margin-top: 30px; 
+  margin-left: 40px;
+}
+.tony{
+  margin-top: 40px;
+  margin-left: 500px;
+  margin-right: 20px; 
+}
+.heading{
+   color: white;
+   text-align: center;
+
+}
+.group1{
+  margin-left:15px;
+  background-color: black;
+}
+.group2{
+  margin-top: 7px;
+  margin-left:15px;
+  background-color: black;
+}
+.group3{
+  margin-top: 10px;
+  margin-left:15px;
+  background-color: black;
+}
+.one{
+  margin-left:15px;
+  margin-top: 4px;
+  text-align: center;
+}
+.container_1{
+  
+    margin-left: 210px;
+    border-radius: 20px;
+    align-items: center;
+    position: fixed;
+    height: 350px;
+    width: 950px;
+    background-color:#393534;
+}
+.box{
+  margin-top: 360px;
+  margin-left: 210px;
+  position: fixed;
+  align-items: center;
+  border-radius: 25px;
+  height: 230px;
+  width: 950px;
+  background-color:#393534;
+} */
+/* div p{
+  color:yellow;
+}
+div>p{
+  color: aqua;
+}
+div+p{
+  color: rebeccapurple;
+}
+/* pseudo element */
+/* p::first-line{
+  color: blue;
+}
+p::after{ */ */
+  /* content: url(./Images/figma.png); */
+  /* content: "--after--";
+}
+.circle{ */
+  
+  /* border-radius: 25px; */
+  /* height: 500px;
+  width: 500px;
+  background-color:blue; */
+/* } */
+
+  /* .circle{
+  background: yellow;
+
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+} */
+body{
+  font-family: 'Sofia Sans', sans-serif;
+}
+/* body{
+  font-family: 'Roboto', sans-serif;
+} */
+/* span{
+  color: red;
+} */
+.form-control{
+  height: 25px;
+  width: 20%;
+  border: none;
+  margin-bottom: 23px;
+  box-shadow: rgba(0,0,0,0.02) 0px 1px 3px 0px, rgba(27,31,35,0.15) 0px 0px 0px 1px;
+  /* border: rgba(100,100,111,0.2); */
+  /* border:1px solid gray; */
+  background-color: white;
+  border-radius: 3px;
+}
+.field{
+  margin-bottom: 15px;
+}
+.form-control:focus,select:focus{
+  border: none;
+  outline  : none; /* not get blue line when click on text box */
+  box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+}
+select{
+  height: 27px;
+  width: 20%;
+  margin-bottom: 23px;
+  border: none;
+box-shadow: rgba(0,0,0,0.02) 0px 1px 3px 0px, rgba(27,31,35,0.15) 0px 0px 0px 1px;
+  /* border: rgba(100,100,111,0.2); */
+  /* border:1px solid grey;
+  box-shadow: rgba(0,0,0,0.16) 0px 1px 4px ;
+  background-color: white; */
+  border-radius: 3px;
+}
+.title{
+  
+  font-size: 20px;
+  font-weight: 800;
+   margin: 15px 15px; /*margin from top-bottom, left-right */
+}
+input[type="text"],[type="email"],[type="text"],[type="checkbox"],[type="radio"],[type="password"]{
+  font-family: 'Courier New', Courier, monospace;
+  padding: 0px 14px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.btn{
+  width: 15%;
+  height: 32px;
+  margin-right:15px;
+  border-radius: 4px;
+  color: yellow;
+  background-color: brown;
+  border: none;
+}
+/* For making square inside it circle in single div */
+/* div{
+  width: 500px;
+  height: 500px;
+  background-color: blue;
+}
+div::before{
+  content: ' ';
+  width: 500px;
+  height: 500px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+} */
