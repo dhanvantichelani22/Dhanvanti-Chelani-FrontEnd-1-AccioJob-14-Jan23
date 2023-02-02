@@ -1,0 +1,20 @@
+.container{
+    background-color: aqua;
+    display: flex;
+    /* flex-direction: column-reverse,row,column,row-reverse*/
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    height: 400px;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    /* gap:10; */
+    row-gap: 50px;
+    column-gap: 50px;
+}
+.container .item{
+    background-color: brown;
+    width:20%; /* px-small, %-bigvalue */
+    color: chartreuse;
+    margin: 40px 10px;  /*top left */
+}

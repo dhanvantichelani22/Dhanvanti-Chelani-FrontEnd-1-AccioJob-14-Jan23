@@ -1,0 +1,14 @@
+div{
+    background-color: aqua;
+    /* height: 100px;
+    width:50%; */
+    border: 2px solid blue;
+    margin: 2px;
+    /* Inline-block style it can adjust height & width */
+    /* display: inline-block; */
+    /* Inline style height & width don't matter */
+    display: inline;
+}
+span{
+    display: block;
+}
